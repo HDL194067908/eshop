@@ -16,6 +16,6 @@ public interface AdminInfoDao {
 		@Results({ @Result(id = true, column = "id", property = "id"), 
 			    @Result(column = "name", property = "name"),
 				@Result(column = "pwd", property = "pwd"),
-				@Result(column = "id", property = "fs", many = @Many(select = "com.ecpbm.dao.FunctionDao.selectByAdminId", fetchType = FetchType.EAGER)) })
+				@Result(column = "id", property = "fs", many = @Many(select = "com.ecpbm.dao.FunctionsDao.selectByAdminId", fetchType = FetchType.EAGER)) })
 		AdminInfo selectById(Integer id);
 }

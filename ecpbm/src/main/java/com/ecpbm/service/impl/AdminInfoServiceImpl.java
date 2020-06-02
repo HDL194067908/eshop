@@ -21,7 +21,7 @@ public class AdminInfoServiceImpl implements AdminInfoService {
 	public AdminInfo login(AdminInfo ai) {
 		return adminInfoDao.selectByNameAndPwd(ai);
 	}
-
+	
 	@Override
 	public AdminInfo getAdminInfoAndFunctions(Integer id) {
 		return adminInfoDao.selectById(id);

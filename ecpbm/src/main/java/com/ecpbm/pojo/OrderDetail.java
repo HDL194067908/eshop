@@ -73,4 +73,5 @@ public class OrderDetail {
 	public void setTotalprice(double totalprice) {
 		this.totalprice = totalprice;
 	}
+
 }

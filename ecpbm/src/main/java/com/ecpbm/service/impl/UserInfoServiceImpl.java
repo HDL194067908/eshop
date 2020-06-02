@@ -21,7 +21,6 @@ public class UserInfoServiceImpl implements UserInfoService {
 
 	@Autowired
 	UserInfoDao userInfoDao;
-	@Override
 	public List<UserInfo> getValidUser() {
 		return userInfoDao.getValidUser();
 	}

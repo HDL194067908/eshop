@@ -73,4 +73,5 @@ public class OrderInfo {
 	public void setOrderTimeTo(String orderTimeTo) {
 		this.orderTimeTo = orderTimeTo;
 	}
+
 }
